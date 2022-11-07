@@ -4,6 +4,9 @@
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #666;
     width: 1200px;
     height: 650px;
@@ -17,7 +20,7 @@
     width: 150px;
     height: 150px;
     background-color: #f60707;
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
 .caja2 {
@@ -28,7 +31,7 @@
     width: 150px;
     height: 150px;
     background-color: #0222f2;
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
 .caja3 {
@@ -39,4 +42,5 @@
     width: 150px;
     height: 150px;
     background-color: #c5fb03;
+    margin: 5px;
 }
