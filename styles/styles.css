@@ -5,7 +5,7 @@
 
 .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: #666;
     width: 1200px;
@@ -30,7 +30,7 @@
     width: 150px;
     height: 150px;
     background-color: #0222f2;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .caja3 {
@@ -41,4 +41,5 @@
     width: 150px;
     height: 150px;
     background-color: #03fb0b;
+    margin: 5px;
 }
