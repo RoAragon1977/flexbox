@@ -62,7 +62,7 @@ if (res == 0){
 
 //ejercicio 11
 
-let num = prompt ("Ingrese un numero")
+/*let num = prompt ("Ingrese un numero")
 if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0) {
     if (num % 2 === 0) {
         console.log("numero divisible por 2")
@@ -73,5 +73,20 @@ if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0) {
     } if (num % 7 === 0) {
         console.log("numero divisible por 7")
     }
-    }
+}*/
+
+// Practico 2
+// Ejercicio 1
+
+let i = prompt("ingresa tu edad")
+if (i >= 0 && i <= 100) {
+    if (i < 18) {
+        console.log("Ud. no tiene edad para conducir")
+    } if (i >= 18) {
+        console.log("Ud. ya tiene edad para conducir")
+    } 
+} else {
+    console.log("ingrese un valor correcto")
+}
+
 
