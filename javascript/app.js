@@ -78,7 +78,7 @@ if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0) {
 // Practico 2
 // Ejercicio 1
 
-let i = prompt("ingresa tu edad")
+/*let i = prompt("ingresa tu edad")
 if (i >= 0 && i <= 100) {
     if (i < 18) {
         console.log("Ud. no tiene edad para conducir")
@@ -87,6 +87,58 @@ if (i >= 0 && i <= 100) {
     } 
 } else {
     console.log("ingrese un valor correcto")
-}
+}*/
 
+// Ejercicio 2
+
+/*let nota = prompt("ingrese una nota")
+if (nota>=0 && nota<=10) {
+    if (nota>=0 && nota<=2) {
+        alert("Muy deficiente")
+    } if (nota>=3 && nota<=4) {
+        alert("Insuficiente")
+    } if (nota>=5 && nota<=6) {
+        alert("Suficiente")
+    } if (nota==7) {
+        alert("Bien")
+    } if (nota>=8 && nota<=9) {
+        alert("Notable")
+    } if (nota==10) {
+        alert("Sobresaliente")
+    } 
+} else {
+    alert("Numero erroneo, ingrese un valor entre 0 y 10")
+}*/  
+
+// Ejercicio 3
+
+/*let acum = ""
+do {
+    let cadena = prompt("Intoduce un texto")
+    if (acum == "") {
+        acum = acum + cadena
+    }  else {
+        acum = acum + "-" + cadena
+    }
+    
+} while(confirm("desea seguir?"))
+console.log(acum)*/
+
+// Ejercicio 4
+
+/*let suma = 0
+let numeros
+do {
+    numeros = prompt("ingrese un numero")
+    if (Number(numeros) == numeros) {
+        numeros = Number(numeros)
+        suma = suma + numeros
+    } else {
+        if (numeros != undefined)
+        alert (numeros + "No es un numero")
+    }
+} while (numeros != undefined)
+console.log (suma)*/
+
+// Ejercicio 5
 
