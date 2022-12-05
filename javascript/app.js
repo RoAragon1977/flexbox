@@ -127,18 +127,73 @@ console.log(acum)*/
 // Ejercicio 4
 
 /*let suma = 0
-let numeros
+let num 
 do {
-    numeros = prompt("ingrese un numero")
-    if (Number(numeros) == numeros) {
-        numeros = Number(numeros)
-        suma = suma + numeros
+    num = prompt("Ingresa un numero")
+    if (Number(num) == num) {
+        num = Number(num)
+        suma = suma + num
     } else {
-        if (numeros != undefined)
-        alert (numeros + "No es un numero")
+        if (num != undefined) {
+            alert("Lo ingresado no es un numero")
+        }
     }
-} while (numeros != undefined)
-console.log (suma)*/
+} while (num != undefined) {
+    console.log(suma)
+}*/
 
 // Ejercicio 5
 
+/*const letras = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
+let res
+let dni
+do {
+    dni = prompt("Ingrese su numero de DNI con 8 digitos")
+    if (Number(dni) !== dni  && dni.length !== 8) {
+        alert("error al ingresar dni, vuelva a intentar")
+    } else {
+        dni = Number(dni)
+        res = dni % 23
+        console.log("La letra de tu DNI es "+ letras[res])
+    }
+} while (dni != undefined) {
+    console.log("Gracias por su visita")
+} corregir cuando se oprime cancelar*/
+
+// Ejercicio 6
+
+/*let i
+let rep 
+for (i = 1; i <= 30; i++) {
+    for (rep = 0; rep < i ; rep++) {
+        document.write(i)
+    }
+    document.write("<br>")
+}*/
+
+// Ejercicio 7
+
+/*let rep
+let i
+let x = prompt("ingrese un numero del 1 al 50")
+if (Number(x) == x) {
+    if (x > 0 && x <= 50) {
+        for (i = x; i >= 1; i--) {
+            for (rep = i; rep >= 1; rep--) {
+                document.write(i)
+            }
+            document.write("<br>")
+        }
+    }
+} else {
+    alert("No has introducido un número")
+}*/
+
+// Ejercicio 8
+
+        for (let i = 0; i <= 50; i++) {
+            for (let rep = 1; rep <= i; rep++) {
+                document.write(rep)
+            }
+            document.write("<br>")
+        }
