@@ -88,7 +88,7 @@ if (res == 0){
 
 //ejercicio 11
 
-let num = prompt ("Ingrese un numero")
+/*let num = prompt ("Ingrese un numero")
 if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0) {
     if (num % 2 === 0) {
         console.log("numero divisible por 2")
@@ -99,5 +99,138 @@ if (num % 2 === 0 || num % 3 === 0 || num % 5 === 0 || num % 7 === 0) {
     } if (num % 7 === 0) {
         console.log("numero divisible por 7")
     }
+    }*/
+
+/*let sumar = function (num1, num2) {
+    let res = num1 + num2
+    return `la suma de ${num1} + ${num2} = ${res}`
+}*/
+
+/*let numeros = [2,6,5,7,9,8]
+let sumaPar = numeros.reduce((acum, numero) => {
+    if (numero % 2 == 0) {
+        return acum + numero
     }
+    return acum
+}, 0)
+console.log(sumaPar)*/
+
+// PRACTICO 3
+
+// Ejercicio 1
+
+/*const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Octubre", "Noviembre", "Diciembre"]
+meses.forEach(mes => {
+    console.log(mes)
+})*/
+
+// Ejercicio 2
+
+const provincias = []
+let provincia
+while (provincia !== null) {
+    provincia = prompt ("ingrese una provincia")
+    if (provincia == "") {
+        alert("ud. no ingreso nada")
+    } else {
+        provincias.push (provincia) 
+    } 
+}   
+console.log(provincias)
+for (let i = 0; i < provincias.length; i++) {
+    provincias.pop()
+    console.log (provincias[i])
+}
+console.log(provincias.length)
+for (let i = 0; i < provincias.length; i++) {
+    if (i == 0) {
+        document.write(provincias[0])
+    }
+    if (i == 3) {
+        document.write(provincias[3])
+    }
+    if (i == provincias.length) {
+        document.write(provincias[provincias.length])
+    }
+} /*Revisar por que me borra elementos del array */
+
+// Ejercicio 3
+
+/*let sumas = []
+let dado1 
+let dado2
+    for (let i = 0; i < 50; i++) {
+        dado1 = Math.floor(Math.random() * 7) + 1
+        dado2 = Math.floor(Math.random() * 7) + 1
+        sumas.push(dado1 + dado2)
+    }
+console.log(sumas)*/
+
+// Ejerciccio Funciones
+
+// Ejercicio 1
+
+/*function pares(numero) {
+    if (numero % 2 == 0) {
+        console.log (`${numero} en par`)
+    } else {
+        console.log (`${numero} es imapar`)
+    }
+}
+let num = pares(30)
+console.log(num)*/
+
+//Ejercicio 2
+
+/*function minMay(texto) {
+    if (texto === texto.toUpperCase()) {
+        console.log("El texto esta en Mayusculas")
+    }
+    if (texto === texto.toLowerCase()) {
+        console.log("El texto esta en minusculas")
+    }
+    if (texto !== texto.toUpperCase() && texto !== texto.toLowerCase()) {
+        console.log("El texto posee mayusculas y minusculas")
+    }
+}
+minMay("minusculas")*/
+
+// Ejercicio 3
+
+/*function calculos(a, b) {
+    let res = 2 * (a + b)
+    return console.log(`El perimetro del rectangulo es ${res}`)
+}
+calculos(20, 10)*/
+
+// Ejercicio 4
+
+/*function multiplicar(num) {
+    let r1 = num * 1
+    let r2 = num * 2
+    let r3 = num * 3
+    let r4 = num * 4
+    let r5 = num * 5
+    let r6 = num * 6
+    let r7 = num * 7
+    let r8 = num * 8
+    let r9 = num * 9
+    let r10 = num * 10
+    console.log(r1, r2, r3, r4, r5, r6, r7, r8, r9, r10)
+}
+multiplicar(prompt("Ingrese un numero para calcular la tabla de multiplicar del 1 al 10"))*/
+
+// Ejercicios de POO
+
+// Ejercicio 1
+
+/*const auto = {
+    marca: volkswagen,
+    modelo: gol,
+    color: negro,
+    function marcha () {
+        
+    }
+}*/
+
 
